@@ -1,53 +1,41 @@
-import { Image } from 'semantic-ui-react'
+import { Cart } from './Cart'
 import styles from './Price.module.css'
 
-export function Price(props) {
-
-  const {description} = props
+export function Price() {
 
   return (
-    
+
     <div className={styles.section}>
       <div className={styles.container}>
-        <div className={styles.price}>
-          <div>
-            <h1>Básico</h1>
-            <h2>(Color y negro)</h2>
-          </div>
-          <div>
-            <h1>...............</h1>
-          </div>
-          <div>
-            <h1>$80</h1>
-            <h2>MXN</h2>
-          </div>
-        </div>
-        <div className={styles.price}>
-          <div>
-            <h1>Básico</h1>
-            <h2>(Blanco)</h2>
-          </div>
-          <div>
-            <h1>...............</h1>
-          </div>
-          <div>
-            <h1>$100</h1>
-            <h2>MXN</h2>
-          </div>
-        </div>
-        <div className={styles.price}>
-          <div>
-            <h1>Restaurado y pintado</h1>
-            <h2>(Color. negro y blanco)</h2>
-          </div>
-          <div>
-            <h1>...............</h1>
-          </div>
-          <div>
-            <h1>$200</h1>
-            <h2>MXN</h2>
-          </div>
-        </div>
+
+        <Cart
+          title='Básico'
+          subtitle='(color y negro)'
+          description='Lorem ipsum dolor sit amet consectetur adipiscing elit odio taciti tempor nisl arcu, purus a ut egestas eros laoreet nunc quis et vel.'
+          price='$80'
+        />
+
+        <Cart
+          title='Básico'
+          subtitle='(blanco)'
+          description='Lorem ipsum dolor sit amet consectetur adipiscing elit odio taciti tempor nisl arcu, purus a ut egestas eros laoreet nunc quis et vel.'
+          price='$100'
+        />
+
+        <Cart
+          title='Percudido'
+          subtitle='(limpieza profunda)'
+          description='Lorem ipsum dolor sit amet consectetur adipiscing elit odio taciti tempor nisl arcu, purus a ut egestas eros laoreet nunc quis et vel.'
+          price='$150'
+        />
+
+<Cart
+          title='Restaurado y pintado'
+          subtitle='(color, negro y blanco)'
+          description='Lorem ipsum dolor sit amet consectetur adipiscing elit odio taciti tempor nisl arcu, purus a ut egestas eros laoreet nunc quis et vel.'
+          price='$200'
+        />
+
       </div>
     </div>
 

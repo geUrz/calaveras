@@ -2,15 +2,11 @@ import Link from 'next/link'
 import styles from './Footer.module.css'
 import { FaFacebook, FaInstagram, FaMapMarkerAlt } from 'react-icons/fa'
 
-export function Footer(props) {
-
-  const {noFooter=true} = props
+export function Footer() {
 
   return (
     
     <>
-    
-      {noFooter ? (
         
         <div className={styles.containerFooter}>
         <div>
@@ -27,23 +23,19 @@ export function Footer(props) {
             <h4>¡ Síguenos en nuestras redes sociales !</h4>
           </div>
           <div className={styles.boxSiguenos}>
-            <Link target='blank' href='https://facebook.com/vocalcoachescueladecanto/'>
+            <Link target='_blank' href=''>
               <FaFacebook />
             </Link>
-            <Link target='blank' href='https://facebook.com/vocalcoachescueladecanto/'>
+            <Link target='_blank' href=''>
               <FaInstagram />
             </Link>
           </div>
         </div>
         <div className={styles.copy}>
-          <h4>&copy; 2023 BARBERIA FIGARO</h4>
+          <h4>&copy; 2024 CALAVERAS CLEANING SHOES</h4>
         </div>
         </div>
       </div>
-
-      ) : (
-        ''
-      )}
 
     </>
 

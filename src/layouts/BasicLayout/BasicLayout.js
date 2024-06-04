@@ -7,13 +7,13 @@ export function BasicLayout(props) {
 
   const {
     children,
-    relative= false,
     noFooter,
   } = props
 
   return (
     <>
-        <div className={classNames({[styles.relative]: relative})}>
+      <TopBar/>
+        <div>
           {children}
 
           <div className={styles.wallpaper}></div>

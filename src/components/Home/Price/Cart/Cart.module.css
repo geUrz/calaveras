@@ -1,0 +1,56 @@
+.price{
+  padding: 50px 20px;
+  margin: 30px 0;
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, .65);
+  border-radius: 10px;
+}
+
+.price div:nth-child(1){
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.price div:nth-child(1) h1{
+  font-size: 24px;
+  font-family: 'Bebas' !important;
+  color: red;
+}
+
+.price div:nth-child(1) h2{
+  font-size: 16px;
+}
+
+.price div:nth-child(2){
+  margin-top: 10px;
+  text-align: center;
+}
+
+.price div:nth-child(2) p{
+  font-size: 16px;
+  color: darkgray;
+}
+
+.price div:nth-child(3){
+  margin-top: 20px;
+  display: flex;
+  align-items: last baseline;
+  justify-content: center;
+}
+
+.price div:nth-child(3) h1{
+  margin-right: 5px !important;
+  font-size: 20px !important;
+}
+
+.price div:nth-child(3) h2{
+  font-size: 12px !important;
+}
