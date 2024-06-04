@@ -1,0 +1,12 @@
+:root{
+  --background1: rgba(18, 18, 18);
+  --background2: rgba(25, 25, 25);
+  --background3: rgba(35, 35, 35);
+  --background4: rgba(50, 50, 50);
+  --color-1:  rgb(9, 60, 94, .95);
+  --color-1-hover:  rgba(14, 82, 128, 0.95);
+  --color-2:  rgb(228, 124, 53);
+  --color-2-hover:  rgb(241, 135, 64);
+  --color-3:  rgba(31, 93, 134, 0.95);
+
+}
